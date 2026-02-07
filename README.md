@@ -34,6 +34,7 @@ CDC2025---Simulation/
 │
 ├── Apresentacao_CDC2025.pdf          # Conference presentation slides
 ├── Obtencao_FandP.cpp                # C++ program to compute controllers
+├── Paper_CDC2025.pdf                 # Paper
 ├── Simulacao_HTML_CDC.html           # Main HTML visualization interface
 ├── Simulacao_SVG.svg                 # SVG graphics for TEG visualization
 ├── jquery-3.7.1.slim.min.js          # jQuery library for interactivity
@@ -85,8 +86,10 @@ F_opt^+ = [ (3γ¹ ⊕ 9γ³)r* ]
 
 where r = (14γ³)
 ```
+### 3. **Paper_CDC2025.pdf**
+Paper presented during CDC2025, it contains our work on Controllers Synthesis for Max-Plus Linear Systems under State Constraints.
 
-### 3. **Simulacao_HTML_CDC.html**
+### 4. **Simulacao_HTML_CDC.html**
 **Interactive HTML Simulation Interface**
 
 Web-based visualization tool for simulating the controlled TEG system.
@@ -107,7 +110,7 @@ Web-based visualization tool for simulating the controlled TEG system.
 
 **Technologies:** HTML5, CSS3, JavaScript, SVG manipulation
 
-### 4. **Simulacao_SVG.svg**
+### 5. **Simulacao_SVG.svg**
 **TEG Graphical Representation**
 
 Scalable Vector Graphics file containing the visual model of the Timed Event Graph.
@@ -127,7 +130,7 @@ Scalable Vector Graphics file containing the visual model of the Timed Event Gra
 - 1 output transition: $y_1$
 - Constraints: $x_2 - x_1 \leq 6$ and $x_2 - x_3 \leq 12$
 
-### 5. **jquery-3.7.1.slim.min.js**
+### 6. **jquery-3.7.1.slim.min.js**
 **jQuery Library**
 
 Minified jQuery library (version 3.7.1 slim) used for DOM manipulation and event handling in the HTML simulation.
